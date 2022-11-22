@@ -1,0 +1,6 @@
+"0","  # inspect data"
+"0","  df %>%"
+"0","    head(10) %>%"
+"0","    kable(caption = ""First 10 rows of df data."") %>%"
+"0","    kableExtra::kable_styling(bootstrap_options = c(""striped"", ""hover"", ""condensed"", ""responsive""), "
+"0","                              full_width = F)"

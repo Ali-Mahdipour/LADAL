@@ -1,0 +1,105 @@
+library(dplyr)
+install.packages("rlang")
+install.packages("rlang")
+install.packages("rlang")
+install.packages("rlang")
+library(dplyr)
+library(dplyr)
+library(dplyr)
+library(flextable)
+library(ggpubr)
+library(rlang)
+library(dplyr)
+library(dplyr)
+install.packages("C:\Users\Eyetracker\Downloads\rlang-1.0.6.tar.gz")
+install.packages("C:\Users\Eyetracker\Downloads\rlang-1.0.6.tar.gz")
+install.packages("C:/Users/Eyetracker/Downloads/rlang-1.0.6.tar.gz")
+library(dplyr)
+library(dplyr)
+remove.packages("dplyr")
+library(dplyr)
+install.packages("dplyr")
+library(dplyr)
+updateR()
+library(dplyr)
+library(flextable)
+library(ggpubr)
+library(vip)
+Height <- c(173, 169, 176, 166, 161, 164, 160, 158, 180, 187)
+Weight <- c(80, 68, 72, 75, 70, 65, 62, 60, 85, 92)
+df <- data.frame(Height, Weight)
+# inspect data
+df %>%
+flextable() %>%
+flextable::set_table_properties(width = .75, layout = "autofit") %>%
+flextable::theme_zebra() %>%
+flextable::fontsize(size = 12) %>%
+flextable::fontsize(size = 12, part = "header") %>%
+flextable::align_text_col(align = "center") %>%
+flextable::set_caption(caption = "Weigth and height of a random sample of people.")  %>%
+flextable::border_outer()
+# model for upper panels
+summary(glm(Weight ~ Height, data = df))
+install.packages("klippy")
+install.packages("dplyr")
+install.packages("flextable")
+install.packages("ggpubr")
+install.packages("vip")
+# automated AIC based model fitting
+step(m1.mlr, direction = "both")
+library(dplyr)
+library(flextable)
+library(ggpubr)
+library(vip)
+Height <- c(173, 169, 176, 166, 161, 164, 160, 158, 180, 187)
+Weight <- c(80, 68, 72, 75, 70, 65, 62, 60, 85, 92)
+df <- data.frame(Height, Weight)
+# inspect data
+df %>%
+flextable() %>%
+flextable::set_table_properties(width = .75, layout = "autofit") %>%
+flextable::theme_zebra() %>%
+flextable::fontsize(size = 12) %>%
+flextable::fontsize(size = 12, part = "header") %>%
+flextable::align_text_col(align = "center") %>%
+flextable::set_caption(caption = "Weigth and height of a random sample of people.")  %>%
+flextable::border_outer()
+# model for upper panels
+summary(glm(Weight ~ Height, data = df))
+# generate data
+library(ggplot2)
+Height <- c(173, 169, 176, 166, 161, 164, 160, 158, 180, 187)
+Weight <- c(80, 68, 72, 75, 70, 65, 62, 60, 85, 92)
+df <- data.frame(Height, Weight) %>%
+dplyr::mutate(Pred = predict(lm(Weight ~ Height)))
+# generate plots
+p <- ggplot(df, aes(Height, Weight)) +
+geom_point() +
+theme_bw() +
+theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+p1 <- p
+p2 <- p +
+geom_hline(yintercept=mean(Weight), color = "blue") +
+geom_segment(aes(xend = Height, yend = mean(Weight)), color = "red") +
+ggplot2::annotate(geom = "text", label = "Residual Deviance = 946.9", x = 170, y = 100, size = 3)
+p3 <- p +
+geom_smooth(color = "blue", se = F, method = "lm", size = .5)
+p4 <- p3 +
+geom_segment(aes(xend = Height, yend = Pred), color = "red") +
+ggplot2::annotate(geom = "text", label = "Residual Deviance = 164.3", x = 170, y = 100, size = 3)
+ggpubr::ggarrange(p1, p2, p3, p4, ncol = 2, nrow = 2)
+# install
+install.packages("Boruta")
+install.packages("car")
+install.packages("emmeans")
+install.packages("effects")
+install.packages("flextable")
+install.packages("glmulti")
+install.packages("ggplot2")
+install.packages("ggpubr")
+install.packages("Hmisc")
+install.packages("knitr")
+install.packages("lme4")
+install.packages("MASS")
+install.packages("mclogit")
+install.packages("MuMIn")

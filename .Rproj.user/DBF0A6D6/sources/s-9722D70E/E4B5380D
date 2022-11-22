@@ -1,0 +1,28 @@
+{
+    "id": "E4B5380D",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1669093810701.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "8dbc6fd4173f4e21b6a8668e18c17fad",
+        "name": "m1.lm",
+        "title": "m1.lm",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 970662609121,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1669093810701,
+    "read_only": false,
+    "read_only_alternatives": []
+}

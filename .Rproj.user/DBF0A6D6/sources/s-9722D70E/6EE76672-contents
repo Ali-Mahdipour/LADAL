@@ -1,0 +1,17 @@
+---
+title: "Reuse of code chunks"
+output:
+  html_document: default
+  pdf_document: default
+date: '2022-10-19'
+---
+
+This is chunk a:
+```{r chunk-a}
+1 + 1
+```
+
+This is chunk b which includes chunk a:
+```{r chunk-b}
+<<chunk-a>>
+2 + 2

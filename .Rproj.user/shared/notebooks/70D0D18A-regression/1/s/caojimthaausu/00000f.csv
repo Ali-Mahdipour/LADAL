@@ -1,0 +1,22 @@
+"0","# extract the confidence intervals for the coefficients
+confint(lr.glm)
+"
+"2","Waiting for profiling to be done...
+"
+"1","           "
+"1","           2.5 %"
+"1","          97.5 %"
+"1","
+(Intercept)"
+"1"," -0.276050866670"
+"1"," -0.188778707810"
+"1","
+AgeOld     "
+"1"," -0.896486392278"
+"1"," -0.765095825382"
+"1","
+GenderWomen"
+"1"," -0.473530977637"
+"1"," -0.366703827307"
+"1","
+"

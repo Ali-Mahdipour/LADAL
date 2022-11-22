@@ -1,0 +1,51 @@
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(flextable)"
+"0","library(ggpubr)"
+"2","Loading required package: ggplot2
+"
+"2","
+Attaching package: ‘ggpubr’
+
+"
+"2","The following objects are masked from ‘package:flextable’:
+
+    border, font, rotate
+
+"
+"0","library(vip)"
+"2","
+Attaching package: ‘vip’
+
+"
+"2","The following object is masked from ‘package:utils’:
+
+    vi
+
+"
+"0","Height <- c(173, 169, 176, 166, 161, 164, 160, 158, 180, 187)"
+"0","Weight <- c(80, 68, 72, 75, 70, 65, 62, 60, 85, 92) "
+"0","df <- data.frame(Height, Weight)"
+"0","# inspect data"
+"0","df %>%"
+"0","  flextable() %>%"
+"0","  flextable::set_table_properties(width = .75, layout = ""autofit"") %>%"
+"0","  flextable::theme_zebra() %>%"
+"0","  flextable::fontsize(size = 12) %>%"
+"0","  flextable::fontsize(size = 12, part = ""header"") %>%"
+"0","  flextable::align_text_col(align = ""center"") %>%"
+"0","  flextable::set_caption(caption = ""Weigth and height of a random sample of people."")  %>%"
+"0","  flextable::border_outer()"

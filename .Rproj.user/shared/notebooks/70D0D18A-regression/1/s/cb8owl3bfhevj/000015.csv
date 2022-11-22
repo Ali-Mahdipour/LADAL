@@ -1,0 +1,6 @@
+"0","# generate summary table
+sjPlot::tab_model(m1.lm) 
+"
+"2","Error in file(file, ifelse(append, ""a"", ""w"")) : 
+  cannot open the connection
+"

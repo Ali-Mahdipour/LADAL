@@ -1,0 +1,7 @@
+"0","# check if sample size is sufficient
+smplesz(m2.mlr)
+"
+"1","[1]"
+"1"," ""Sample too small: please increase your sample by  9  data points"""
+"1","
+"

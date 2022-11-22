@@ -1,0 +1,1 @@
+"0","plot(rstudent(m2.lm)); par(mfrow = c(1, 1))  # restore normal plot window"

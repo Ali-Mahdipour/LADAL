@@ -1,0 +1,2 @@
+"0","# load data"
+"0","slrdata  <- base::readRDS(""./Data/sld.rda"")"

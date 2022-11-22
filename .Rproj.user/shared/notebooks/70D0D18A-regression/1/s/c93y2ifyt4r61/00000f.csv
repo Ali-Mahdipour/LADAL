@@ -1,0 +1,5 @@
+"0","# load data
+slrdata2  <- base::readRDS(url(""./Data/sgd.rda""))
+"
+"2","Error in url(""./Data/sgd.rda"") : URL scheme unsupported by this method
+"

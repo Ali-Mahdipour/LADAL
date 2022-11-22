@@ -1,0 +1,148 @@
+"0","# set options"
+"0","options(stringsAsFactors = F)          # no automatic data transformation"
+"0","options(""scipen"" = 100, ""digits"" = 12) # suppress math annotation"
+"0","# load packages"
+"0","library(Boruta)"
+"0","library(car)"
+"2","Loading required package: carData
+"
+"2","
+Attaching package: ‘car’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"
+"0","library(effects)"
+"2","lattice theme set by effectsTheme()
+See ?effectsTheme for details.
+"
+"0","library(emmeans)"
+"0","library(flextable)"
+"0","library(glmulti)"
+"2","Loading required package: rJava
+"
+"2","Loading required package: leaps
+"
+"0","library(ggfortify)"
+"0","library(ggplot2)"
+"0","library(ggpubr)"
+"0","library(Hmisc)"
+"2","Loading required package: lattice
+"
+"2","Loading required package: survival
+"
+"2","Loading required package: Formula
+"
+"2","
+Attaching package: ‘Hmisc’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    src, summarize
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+"
+"0","library(knitr)"
+"0","library(lme4)"
+"2","Loading required package: Matrix
+"
+"0","library(MASS)"
+"2","
+Attaching package: ‘MASS’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    select
+
+"
+"0","library(mclogit)"
+"0","library(MuMIn)"
+"0","library(nlme)"
+"2","
+Attaching package: ‘nlme’
+
+"
+"2","The following object is masked from ‘package:lme4’:
+
+    lmList
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    collapse
+
+"
+"0","library(ordinal)"
+"2","
+Attaching package: ‘ordinal’
+
+"
+"2","The following objects are masked from ‘package:nlme’:
+
+    ranef, VarCorr
+
+"
+"2","The following objects are masked from ‘package:lme4’:
+
+    ranef, VarCorr
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    slice
+
+"
+"0","library(rms)"
+"2","Loading required package: SparseM
+"
+"2","
+Attaching package: ‘SparseM’
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    backsolve
+
+"
+"2","
+Attaching package: ‘rms’
+
+"
+"2","The following object is masked from ‘package:emmeans’:
+
+    contrast
+
+"
+"2","The following objects are masked from ‘package:car’:
+
+    Predict, vif
+
+"
+"0","library(robustbase)"
+"2","
+Attaching package: ‘robustbase’
+
+"
+"2","The following object is masked from ‘package:survival’:
+
+    heart
+
+"
+"0","library(sjPlot)"
+"0","library(stringr)"
+"0","library(tibble)"
+"0","library(vcd)"
+"2","Loading required package: grid
+"
+"0","library(vip)"
+"0","# activate klippy for copy-to-clipboard button"
+"0","klippy::klippy()"
